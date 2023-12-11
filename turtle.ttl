@@ -1,0 +1,67 @@
+@base <https://foroughfarrokhzad.com/> . 
+
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/> .
+
+@prefix schema: <https://schema.org> .
+
+@prefix dcterms: <https://purl.org/dc/terms/> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+<https://w3id.org/foroughfarrokhzad/person/forough-farrokhzad> schema:isSubjectOf <https://w3id.org/foroughfarrokhzad/item/only-voice-emains> .
+
+<https://w3id.org/foroughfarrokhzad/person/forough-farrokhzad> schema:isSubjectOf <https://w3id.org/foroughfarrokhzad/item/the-house-is-black>  .
+
+<https://w3id.org/foroughfarrokhzad/person/forough-farrokhzad> schema:isSubjectOf <https://w3id.org/foroughfarrokhzad/item/sin> .
+
+<https://w3id.org/foroughfarrokhzad/person/forough-farrokhzad> schema:isSubjectOf <https://w3id.org/foroughfarrokhzad/item/interview-with-forough-farrokhzad> ;
+
+          owl:sameAs <https://www.wikidata.org/wiki/Q464394> . #URI for Forough Farrokhzad on Wikidata
+
+
+<https://w3id.org/foroughfarrokhzad/item/only-voice-emains> a crm:E31_Document ; 
+                  
+                   owl:sameAs <https://www.imdb.com/title/tt10065156/> ; # URI for Only Voice Remains from IMDB
+
+                   schema:category <https://www.wikidata.org/wiki/Q93204> ; #URI for Documentary
+                   
+                   schema:language <https://www.wikidata.org/wiki/Q1860> ; #URI for English
+
+                   schema:title "Only Voice Remains" ;
+
+
+<https://w3id.org/foroughfarrokhzad/item/the-house-is-black> a crm:E31_Document ; 
+ 
+                   owl:sameAs <https://en.wikipedia.org/wiki/The_House_Is_Black> ; # URI for The House is Black from Wikipedia
+
+                   cdwa:classification-term <https://www.wikidata.org/wiki/Q93204> ; #URI for the concept of documentary film
+
+                   schema:title "The House is Black" ; 
+
+                   schema:contributor "Forough Farrokhzad" ; 
+
+                   schema:dateCreated "1963" ; 
+
+<https://w3id.org/foroughfarrokhzad/item/sin> a crm:E31_Document ;
+ 
+                  owl:sameAs <https://www.uapress.com/product/sin/> ; #URI for the item on UAP
+
+                  dcterms:title "sin" ;
+                  
+                  dcterms:type <https://www.wikidata.org/wiki/Q571> ; #URI for the concept of Book
+                  
+                  dcterms:creator "Sholeh Wolpé" ;
+                  
+
+<https://w3id.org/foroughfarrokhzad/item/interview-with-forough-farrokhzad> a crm:E31_Document ;
+             
+                  cdwa:title "Interview with Forough Farrokhzad" ;
+
+                  dcterms:creator "Iraj Gorgin" ;
+
+                  dcterms:type <https://www.wikidata.org/wiki/Q178651> ; #URI for the concept of interview on WikiData
+
+                 

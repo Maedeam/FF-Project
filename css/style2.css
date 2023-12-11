@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .ff-img {
+  position: absolute;
+  top: 5%;
+}
+.container .ff-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.container .stage {
+  border-radius: 50%;
+  border: 1px dashed gray;
+  position: absolute;
+  top: 10%;
+}
+.container .stage .stage-num {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #999;
+  font-weight: 600;
+  font-size: 15px;
+  color: #999;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.container .stage .flex {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.container .stage .flex img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.container .stage .flex p {
+  font-size: 14px;
+  color: #999;
+}
+.container .stage1 {
+  height: 25vh;
+  width: 45%;
+}
+.container .stage1 figure {
+  z-index: 100000;
+  position: absolute;
+}
+.container .stage1 figure:first-child {
+  left: 18%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+.container .stage1 figure:nth-child(2) {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+.container .stage1 figure:nth-child(3) {
+  right: 18%;
+  bottom: -20px;
+  transform: translateX(50%);
+}
+.container .stage1 .stage-num {
+  right: 0;
+  bottom: 35px;
+  z-index: 999;
+}
+.container .stage2 {
+  height: 45vh;
+  width: 55%;
+}
+.container .stage2 div {
+  z-index: 100000;
+  position: absolute;
+}
+.container .stage2 div:first-child {
+  left: 18%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+.container .stage2 div:nth-child(2) {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.container .stage2 div:nth-child(3) {
+  right: 18%;
+  bottom: 10px;
+  transform: translateX(50%);
+}
+.container .stage2 .stage-num {
+  right: 0;
+  bottom: 85px;
+  z-index: 999;
+}
+.container .stage3 {
+  height: 65vh;
+  width: 65%;
+}
+.container .stage3 div {
+  z-index: 100000;
+  position: absolute;
+}
+.container .stage3 div:first-child {
+  left: 18%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+.container .stage3 div:nth-child(2) {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.container .stage3 div:nth-child(3) {
+  right: 18%;
+  bottom: 20px;
+  transform: translateX(50%);
+}
+.container .stage3 .stage-num {
+  right: 0;
+  bottom: 125px;
+  z-index: 999;
+}
+.container .stage4 {
+  height: 85vh;
+  width: 75%;
+}
+.container .stage4 div {
+  z-index: 100000;
+  position: absolute;
+}
+.container .stage4 div:first-child {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+}
+.container .stage4 .stage-num {
+  right: 0;
+  bottom: 175px;
+  z-index: 999;
+}
+
+/*# sourceMappingURL=style.css.map */
